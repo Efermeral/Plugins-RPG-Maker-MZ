@@ -1,14 +1,16 @@
 /*:
  * @target MZ
- * @plugindesc Quest Log dengan kategori dan filter status - v1.3 (Story/Side + Active/Completed Tabs) @author ChatGPT
+ * @plugindesc Quest Log with categories and status filters - v1.3 (Story/Side + Active/Completed Tabs) 
+ * @author Efermeral & ChatGPT
  * 
  * @help
- * Tambahkan quest:
+ * Add quest:
  * $gameParty.addQuest(id, name, description, type); // type: "story" atau "side"
- * Tandai selesai:
+ * Mark as complete:
  * $gameParty.completeQuest(id);
- * Ambil ulang quest yang sudah selesai:
+ * Retake completed quest:
  * $gameParty.reactivateQuest(id);
+ * If error no need to use reactiveQuest
  */
 
 (() => {
