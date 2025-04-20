@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc Sistem Day/Night + jam tampil di layar, dengan tone otomatis berdasarkan waktu dalam game.
- * @author ChatGPT
+ * @author Efermal & ChatGPT
  *
  * @param Time Speed
  * @type number
