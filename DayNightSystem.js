@@ -1,17 +1,17 @@
 /*:
  * @target MZ
- * @plugindesc Sistem Day/Night + jam tampil di layar, dengan tone otomatis berdasarkan waktu dalam game.
+ * @plugindesc Sistem Day/Night + closck displayed on screen, with automatic tone based on in-game time.
  * @author Efermal & ChatGPT
  *
  * @param Time Speed
  * @type number
  * @min 1
- * @desc Jumlah frame untuk menambah 1 menit waktu game (60 frame = 1 detik).
+ * @desc number of frames to add 1 minute of game time (60 frame = 1 detik).
  * @default 60
  *
  * @command SetTime
  * @text Set Game Time
- * @desc Atur waktu ke jam dan menit tertentu.
+ * @desc Atur set time spesific hour and minute.
  *
  * @arg hour
  * @type number
